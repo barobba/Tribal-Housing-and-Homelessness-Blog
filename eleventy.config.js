@@ -74,7 +74,7 @@ export default async function(eleventyConfig) {
 			language: "en",
 			title: "My Personal Research Into Tribal Housing & Homelessness (Biagio Arobba)",
 			subtitle: "This is a blog about tribal housing and homelessness by Biagio Arobba.",
-			base: "https://barobba.github.io/Tribal-Housing-and-Homelessness-Blog/",
+			base: "https://barobba.github.io/",
 			author: {
 				name: "Biagio Arobba",
 				email: "barobba@gmail.com",
