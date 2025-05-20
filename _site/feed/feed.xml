@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Blog Title</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://example.com/feed/feed.xml" rel="self" />
+  <link href="https://example.com/" />
+  <updated>2025-04-24T00:00:00Z</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Your Name</name>
+  </author>
+  <entry>
+    <title>THREE Ideas to Help with Tribal Housing and Homelessness</title>
+    <link href="https://example.com/blog/2025/20250424/" />
+    <updated>2025-04-24T00:00:00Z</updated>
+    <id>https://example.com/blog/2025/20250424/</id>
+    <content type="html">&lt;p&gt;These ideas originated from discussions with numerous individuals. So, I cannot claim them as my own, but they are definitely important enough to share with the community. Please pass it on, in case it helps in some way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yurts&lt;/li&gt;
+&lt;li&gt;Volunteers&lt;/li&gt;
+&lt;li&gt;Blankets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;YURTS: During the oil pipeline protests at Standing Rock, yurts proved to be very effective during the winter months. So, why won&#39;t more tribes buy them? Many housing agencies, as well as NAHASDA, are limited by their own tribal regulations. So, either (a) adopt a housing code that states &amp;quot;it is okay to build temporary shelters, including traditional Indigenous shelters and yurts,&amp;quot; or (b) simply purchase them (today) through another department.&lt;/p&gt;
+&lt;p&gt;VOLUNTEERS: Many volunteers in cities like Omaha and Denver would gladly donate time and materials to renovate houses on tribal lands. One big issue with accepting help from the outside is that many of our communities have privacy concerns, and interactions with outsiders can sometimes be awkward. It can be done, though. To begin, compile a list of vacant houses and those houses where a family is about to move out. Then, work with volunteers to establish time frames for the renovations to occur. There is more to it than that, such as finding the volunteers, but many are out there, and it is within the realm of possibility. With the proper oversight, this type of community housing renovation is possible.&lt;/p&gt;
+&lt;p&gt;BLANKETS: Sometimes, housing is not the only answer to a problem. If staying warm is the issue, then blankets are way cheaper than a house. They can also be used to section off temporary rooms, serving as a cost-effective alternative to a renovation. There are likely existing programs that offer blankets. They could use more help to bolster their existing efforts, ensuring that everyone has enough blankets to stay protected during extreme winter weather.&lt;/p&gt;
+&lt;p&gt;I plan to write more about each topic in follow-up posts.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
