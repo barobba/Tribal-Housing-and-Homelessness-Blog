@@ -72,11 +72,13 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "My Personal Research Into Tribal Housing & Homelessness (Biagio Arobba)",
+			subtitle: "This is a blog about tribal housing and homelessness by Biagio Arobba.",
+			base: "https://barobba.github.io/Tribal-Housing-and-Homelessness-Blog/",
 			author: {
-				name: "Your Name"
+				name: "Biagio Arobba",
+				email: "barobba@gmail.com",
+				url: "https://www.linkedin.com/in/barobba/"
 			}
 		}
 	});
