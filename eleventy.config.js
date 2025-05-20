@@ -173,7 +173,7 @@ export const config = {
 		includes: "../_includes",
 
 		// Site output
-		output: "_site"
+		output: "docs"
 
 	},
 

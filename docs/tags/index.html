@@ -8,11 +8,11 @@
     
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>This is my first post.</title>
-		<meta name="description" content="This is a post on My Blog about agile frameworks.">
+		<title>My Personal Research Into Tribal Housing &amp; Homelessness (Biagio Arobba)</title>
+		<meta name="description" content="This is a blog about tribal housing and homelessness by Biagio Arobba.">
 
 		
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Tribal Housing &amp; Homelessness Blog ~ Biagio Arobba">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="My Personal Research Into Tribal Housing &amp; Homelessness (Biagio Arobba)">
 
 		
 		
@@ -24,32 +24,38 @@
 
 /* Theme colors */
 :root {
+
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
+	--color-gray-70: rgba(0,0,0,.7);
 	--color-gray-90: #333;
 
 	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
+	--text-color-muted: var(--color-gray-50);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
+
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+
+		/* --color-gray-20: #e0e0e0; */
+		/* --color-gray-50: #C0C0C0; */
+		/* --color-gray-90: #dad8d8; */
+
+		/* --background-color: #15202b; */
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		/* --text-color-link: #1493fb; */
+		/* --text-color-link-active: #6969f7; */
+		/* --text-color-link-visited: #a6a6f8; */
 
-		--background-color: #15202b;
 	}
 }
 
@@ -131,6 +137,18 @@ a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
 }
+
+/* .muted > a[href],
+.muted > a[href]:visited,
+.muted > a[href]:hover,
+.muted > a[href]:active,
+a[href].muted,
+a[href]:visited.muted,
+a[href]:hover.muted,
+a[href]:active.muted
+{
+	color: var(--text-color-muted);
+} */
 
 main,
 footer {
@@ -294,7 +312,7 @@ header {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	font-style: italic;
 }
 .postlist-item > .post-tag {
@@ -313,173 +331,15 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
-/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
 
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
+.icon {
+	vertical-align: text-bottom;
+	width: 1.25rem;
+	margin-bottom: -.125rem;
 }
 
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
+.muted {
+	color: var(--text-color-muted);
 }</style>
 		
 
@@ -490,16 +350,14 @@ pre[class*="language-diff-"] {
 
 		<header>
 
-			<a href="/" class="home-link">Tribal Housing &amp; Homelessness Blog ~ Biagio Arobba</a>
+			<a href="/" class="home-link">My Personal Research Into Tribal Housing &amp; Homelessness (Biagio Arobba)</a>
 			<nav>
 
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 
 				</ul>
 
@@ -510,42 +368,38 @@ pre[class*="language-diff-"] {
 
 			<heading-anchors>
 				
+<h1 id="tags">Tags</h1>
 
+<ul>
 
-<h1 id="this-is-my-first-post">This is my first post.</h1>
+	
+	<li><a href="/tags/blankets/" class="post-tag">blankets</a></li>
 
-<ul class="post-metadata">
-	<li><time datetime="2018-05-01">01 May 2018</time></li>
-	<li><a href="/tags/another-tag/" class="post-tag">another tag</a></li>
+	
+	<li><a href="/tags/volunteers/" class="post-tag">volunteers</a></li>
+
+	
+	<li><a href="/tags/yurts/" class="post-tag">yurts</a></li>
+
 </ul>
 
-<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-<h2 id="section-header">Section Header</h2>
-<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-<pre class="language-diff-js" tabindex="0"><code class="language-diff-js"> // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
-
- // Test with a line break above this line.
- console.log('Test');</code></pre>
-
-<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/secondpost/">This is my second post with a much longer title.</a></li>
-</ul>
 
 			</heading-anchors>
 
 		</main>
 		<footer>
 
-			
+			<a href="/feed/feed.xml" class="muted">
+<!-- @license lucide-static v0.511.0 - ISC -->
+<svg class="icon icon-rss" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 11a9 9 0 0 1 9 9"></path>
+  <path d="M4 4a16 16 0 0 1 16 16"></path>
+  <circle cx="5" cy="19" r="1"></circle>
+</svg></a>
 
 		</footer>
 
-		<!-- This page `/blog/firstpost/` was built on 2025-05-20T00:44:39.705Z -->
+		<!-- This page `/tags/` was built on 2025-05-20T04:37:21.147Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 
 	</body>

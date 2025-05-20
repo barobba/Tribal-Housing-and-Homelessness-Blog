@@ -8,11 +8,11 @@
     
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;second tag&#39;</title>
+		<title>My Personal Research Into Tribal Housing &amp; Homelessness (Biagio Arobba)</title>
 		<meta name="description" content="This is a blog about tribal housing and homelessness by Biagio Arobba.">
 
 		
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Tribal Housing &amp; Homelessness Blog ~ Biagio Arobba">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="My Personal Research Into Tribal Housing &amp; Homelessness (Biagio Arobba)">
 
 		
 		
@@ -24,32 +24,38 @@
 
 /* Theme colors */
 :root {
+
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
+	--color-gray-70: rgba(0,0,0,.7);
 	--color-gray-90: #333;
 
 	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
+	--text-color-muted: var(--color-gray-50);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
+
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+
+		/* --color-gray-20: #e0e0e0; */
+		/* --color-gray-50: #C0C0C0; */
+		/* --color-gray-90: #dad8d8; */
+
+		/* --background-color: #15202b; */
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		/* --text-color-link: #1493fb; */
+		/* --text-color-link-active: #6969f7; */
+		/* --text-color-link-visited: #a6a6f8; */
 
-		--background-color: #15202b;
 	}
 }
 
@@ -131,6 +137,18 @@ a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
 }
+
+/* .muted > a[href],
+.muted > a[href]:visited,
+.muted > a[href]:hover,
+.muted > a[href]:active,
+a[href].muted,
+a[href]:visited.muted,
+a[href]:hover.muted,
+a[href]:active.muted
+{
+	color: var(--text-color-muted);
+} */
 
 main,
 footer {
@@ -294,7 +312,7 @@ header {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	font-style: italic;
 }
 .postlist-item > .post-tag {
@@ -312,6 +330,16 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+.icon {
+	vertical-align: text-bottom;
+	width: 1.25rem;
+	margin-bottom: -.125rem;
+}
+
+.muted {
+	color: var(--text-color-muted);
 }</style>
 		
 
@@ -322,16 +350,14 @@ header {
 
 		<header>
 
-			<a href="/" class="home-link">Tribal Housing &amp; Homelessness Blog ~ Biagio Arobba</a>
+			<a href="/" class="home-link">My Personal Research Into Tribal Housing &amp; Homelessness (Biagio Arobba)</a>
 			<nav>
 
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 
 				</ul>
 
@@ -342,18 +368,17 @@ header {
 
 			<heading-anchors>
 				
-<h1 id="tagged-second-tag">Tagged “second tag”</h1>
+
+<h1 id="archive">Archive</h1>
 
 
 <ol reversed="" class="postlist" style="--postlist-index: 2">
 	<li class="postlist-item">
-		<a href="/blog/fourthpost/" class="postlist-link">This is my fourth post</a>
-		<time class="postlist-date" datetime="2018-09-30">September 2018</time>
+		<a href="/blog/2025/20250424/" class="postlist-link">THREE Ideas to Help with Tribal Housing and Homelessness</a>
+		<time class="postlist-date" datetime="2025-04-24">April 2025</time>
 	</li>
 </ol>
 
-
-<p>See <a href="/tags/">all tags</a>.</p>
 
 
 			</heading-anchors>
@@ -361,11 +386,17 @@ header {
 		</main>
 		<footer>
 
-			
+			<a href="/feed/feed.xml" class="muted">
+<!-- @license lucide-static v0.511.0 - ISC -->
+<svg class="icon icon-rss" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 11a9 9 0 0 1 9 9"></path>
+  <path d="M4 4a16 16 0 0 1 16 16"></path>
+  <circle cx="5" cy="19" r="1"></circle>
+</svg></a>
 
 		</footer>
 
-		<!-- This page `/tags/second-tag/` was built on 2025-05-20T00:47:08.427Z -->
+		<!-- This page `/blog/` was built on 2025-05-20T04:37:21.131Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 
 	</body>
