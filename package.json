@@ -47,6 +47,11 @@
 		"zod-validation-error": "^3.4.1"
 	},
 	"dependencies": {
-		"@zachleat/heading-anchors": "^1.0.3"
+		"@tabler/icons": "^3.33.0",
+		"@zachleat/heading-anchors": "^1.0.3",
+		"eleventy-plugin-icons": "^4.5.3",
+		"feather-icons": "^4.29.2",
+		"lucide-static": "^0.511.0",
+		"simple-icons": "^14.14.0"
 	}
 }
