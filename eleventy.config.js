@@ -178,6 +178,6 @@ export const config = {
 	},
 
 	// For subdirectory deployment (e.g., ~/blog/); pair with `HtmlBasePlugin`
-	pathPrefix: "Tribal-Housing-and-Homelessness-Blog",
+	pathPrefix: "/Tribal-Housing-and-Homelessness-Blog/",
 
 };
