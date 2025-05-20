@@ -177,7 +177,7 @@ export const config = {
 
 	},
 
-	// // For subdirectory deployment (e.g., ~/blog/); pair with `HtmlBasePlugin`
-	// pathPrefix: "/",
+	// For subdirectory deployment (e.g., ~/blog/); pair with `HtmlBasePlugin`
+	pathPrefix: "Tribal-Housing-and-Homelessness-Blog",
 
 };
